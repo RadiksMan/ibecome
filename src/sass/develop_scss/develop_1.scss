@@ -63,6 +63,9 @@
 					&:last-child{text-align: right;max-width: calc(100% - 260px);}
 				}
 				p{text-decoration: underline;}
+				&:hover{
+					p{text-decoration: none;}
+				}
 			}
 		}
 		.deseshion-row{
@@ -82,3 +85,29 @@
 	}
 
 /* /deseshion */
+
+/* colaborating-advantages */
+
+	.colaborating-advantages{background-image:url(../images/colaborating-advantages-bg.jpg);padding: 45px 0 80px 0;
+
+		.colaborating-advantages-wrap{padding-top: 70px;}
+		.colaborating-advantages-item{display: inline-block;width: calc(25% - 3px);vertical-align: top;padding: 0 5px;box-sizing:border-box;
+			&:first-child{padding: 0 5px 0 0;}
+			&:last-child{padding: 0 0 0 5px;}
+		}
+		.colaborating-advantages-icon{height: 50px;margin-bottom: 20px;}
+		.colaborating-advantages-title{font-size: 16px;font-weight: 500;font-family: "Roboto", sans-serif;margin-bottom: 20px;color:#7e7eb1;}
+		.colaborating-advantages-text{font-family: "Futura PT", sans-serif;font-weight: 300;font-size: 14px;color:#6e6e6e;
+			p{
+				a{color:#ca8b47;text-decoration: underline;
+					&:hover{text-decoration: none;}
+				}
+			}
+			a{color:#ca8b47;text-decoration: none;
+				&:hover{text-decoration: underline;}
+			}
+		}
+	
+	}
+
+/* /colaborating-advantages */
