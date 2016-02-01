@@ -1,7 +1,7 @@
 
 function runScrollReveal(){
 
-	window.sr = ScrollReveal({reset:true}).reveal('.anim');
+	window.sr = ScrollReveal().reveal('.anim');
 
 };
 
