@@ -1,0 +1,34 @@
+<div id="vacancy_form_container" class="left_query">
+    <div class="block-leave-request clearfix" id="block-leave-request">
+        <div class="container">
+            <div class="title ">
+                <div class="title-wrap black">
+                    <h2 class="title-main green">ОСТАВИТЬ ЗАЯВКУ</h2>
+                </div>
+            </div>
+            <form name="form_request" action="" method="POST" enctype="" novalidate="novalidate">
+                <input type="hidden" name="sessid" id="sessid" value=""><input type="hidden" name="WEB_FORM_ID" value="2">
+                <div class="clearfix">
+                    <div class="personal_info">
+                        <input type="text" placeholder="ФИО контактного лица" class="input text required" id="form_text_7" name="form_text_7" value="" aria-required="true">
+                        <input type="text" placeholder="Телефон" class="input text required" id="form_text_10" name="form_text_10" value="" aria-required="true">
+                        <input type="email" placeholder="Email" class="input email required" id="form_email_9" name="form_email_9" value="" aria-required="true">
+                    </div>
+                    <div class="additional_info">
+                        <textarea placeholder="Направление бизнеса" class="input textarea" rows="0" cols="0" id="form_textarea_5" name="form_textarea_5"></textarea>
+                        <textarea placeholder="Пожелания к реализации" class="input textarea" rows="30" cols="10" id="form_textarea_6" name="form_textarea_6"></textarea>
+                    </div>
+                </div>
+                <div class="captcha">
+                    <input type="hidden" name="captcha_sid" id="captcha_sid" value="">
+                    <img src="images/captcha.jpg" class="captcha_img" width="140" height="40" alt="CAPTCHA">
+                    <a href="#" class="captcha-refresh">Обновить</a>
+                    <input type="text" name="captcha_word" id="captcha_word" class="input text">
+                </div>
+                <div class="actions">
+                    <input type="submit" name="web_form_submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

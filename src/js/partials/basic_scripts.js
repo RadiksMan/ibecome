@@ -33,6 +33,12 @@ function oneHeightItems(){
     }
 
     oneHeight($('.oneHeight'));
+
+    oneHeight($('.colaborating-advantages-title'));
+
+    $(window).resize(function(){
+      oneHeight($('.colaborating-advantages-title'));
+    });
 }
 
 /*scroll animation*/
@@ -79,11 +85,17 @@ function goTo(){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-    //oneHeightItems();
+
     $('.footer_placeholder').height($('.footer').outerHeight());
 
     //goTo();
     //animationBlock($('.setion-animate'));
+});
+
+$(window).load(function(){
+
+  oneHeightItems();
+
 });
 
 $(window).resize(function() {
