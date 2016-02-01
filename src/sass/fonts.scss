@@ -19,4 +19,7 @@
 @include font-face('slick');
 @include font-face('bootstrap-icon', 'glyphicons-halflings-regular');
 
+@include font-face('Futura PT', 'FuturaPTMedium', 500);
+@include font-face('Futura PT', 'FuturaPTLight', 200);
+@include font-face('Futura PT', 'FuturaPTBook', 300);
 /* /fonts*/
