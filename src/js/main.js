@@ -1,11 +1,7 @@
 /* plagins */
 
-//= partials/plagins/maskInput.js
 //= partials/plagins/slick.js
 //= partials/plagins/device.js
-//= partials/plagins/jquery.validate.min.js
-//= partials/plagins/jquery.fancybox.pack.js
-//= partials/plagins/jquery.formstyler.min.js
 
 /* /plagins */
 

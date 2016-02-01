@@ -31,3 +31,11 @@
     .advantages-item-text:first-letter{font-size: 16px;}
     .advantages-item-text p{max-width: 293px;}
 }
+
+/* left_query form */
+.left_query{padding-top: 70px;
+    .title{margin-bottom: 70px;}
+    .block-leave-request h2{margin-bottom: 0;margin-top: 0;}
+    .block-leave-request form .additional_info textarea,.block-leave-request form input[type="text"], .block-leave-request form input[type="email"]{font-family: "Roboto";color: #A9A9A6}
+    .block-leave-request form .additional_info textarea::-webkit-input-placeholder,.block-leave-request form input::-webkit-input-placeholder{color: #a7a7a7;}
+}
