@@ -1,13 +1,38 @@
-.slider-wrapp{ width:100%; background-image: url('../images/slider-bg.jpg');  background-repeat: repeat;
-    .slider-align{ max-width: 960px; width:100%;
-        .title{h2{}}
+.slider-wrapp{ width:100%; background-image: url('../images/slider-bg.jpg');  background-repeat: repeat; padding-top: 46px;
+    .slider-align{ max-width: 960px; width:100%; margin:0 auto;
+        .title{     padding-bottom: 89px;
+            .title-wrap{
+                .title-main:after,
+                .title-main:before{background-color: #efbf2c;}
+                &.white:after,
+                &.white:before{background-color: #fff;}
+            }
+        }
         .slider{
             .item{
-                .img{}
-                .txt{}
+                .img{float:left; width:48.2%; padding-left: 135px;    box-sizing: border-box;}
+                .txt{ color:#fff; float:left; width:41%;
+                    .txt-title{position: relative; position: relative; min-height: 82px; margin-bottom: 18px;
+                        &:after{content: ''; display: block; position: absolute; width:50px; height:5px; background-color: #fff; bottom: 0;}
+                        p{font:500 26px/31px 'Futura PT'; text-transform: uppercase; position: absolute; bottom: 24px;}
+                    }
+                    p{font:500 16px/19px 'Futura PT';}
+                }
             }
 
         }
-
+        .slick-arrow{width:36px; height: 36px; border:5px solid #d9d9d9; border-bottom-width: 0;     top: 128px;
+            &:before{content: '';}
+        }
+        .slick-next{border-left-width: 0; transform: rotate(45deg); right:38px;}
+        .slick-prev{border-right-width: 0; transform: rotate(-45deg);    left: 38px;}
+        .slick-dots{bottom: 20px;
+             li{
+                button{ width: 10px; height: 10px; background-color: #fff; border:2px solid #fff; padding: 0;
+                    &:before{    content: "";    }
+                }
+             }
+        }
+        .slick-dots .slick-active button{background-color: #000;}
     }
 }
