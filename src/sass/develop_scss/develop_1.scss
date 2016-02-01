@@ -13,7 +13,7 @@
 				&:before, &:after{background-color: #000;}
 				.title-main{color:#ffffff;}
 			}
-			.title-main{font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;font-size: 22px;padding: 0 45px;display: inline-block;letter-spacing: 1.25px;
+			.title-main{font-family:'Roboto', sans-serif;font-weight: 900;text-transform: uppercase;font-size: 22px;padding: 0 45px;display: inline-block;letter-spacing: 1.25px;margin:0;
 				&:before, &:after{content:'';display: block;position: absolute;width: 10px;height: 10px;top:calc(50% - 5px);transform:rotate(45deg);}
 				&:before{left:15px;}
 				&:after{right:15px;}
@@ -49,10 +49,10 @@
 		}
 		.left{float: left;}
 		.right{float: right;}
-		.deseshion-info{font-family: "Futura PT", sans-serif;font-size: 14px;font-weight: 300;color:#595858;width: 100%;padding: 25px 25px 25px 35px;background-color:#ededed;box-sizing:border-box;position: relative;z-index: 1;
-			h6{font-weight: 500;font-size: 16px;color:#232323;font-family: "Futura PT", sans-serif;}
-			p{font-family: "Futura PT", sans-serif;}
-			ul{
+		.deseshion-info{font-family: "Futura PT", sans-serif;font-size: 14px;font-weight: 200;color:#595858;width: 100%;padding: 25px 25px 25px 35px;background-color:#ededed;box-sizing:border-box;position: relative;z-index: 1;
+			h6{font-weight: 500;font-size: 16px;color:#232323;font-family: "Futura PT", sans-serif;margin:0;}
+			p{font-family: "Futura PT", sans-serif;margin: 0;}
+			ul{list-style:none;padding-left:0px;margin: 0;
 				li{position: relative;font-family: "Futura PT", sans-serif;
 					&:before{content: '';display: inline-block;width: 4px;height: 4px;border-radius: 50%;background-color: #595858;margin-right: 5px;vertical-align: middle;}
 				}
@@ -96,9 +96,11 @@
 			&:last-child{padding: 0 0 0 5px;}
 		}
 		.colaborating-advantages-icon{height: 50px;margin-bottom: 20px;}
-		.colaborating-advantages-title{font-size: 16px;font-weight: 500;font-family: "Roboto", sans-serif;margin-bottom: 20px;color:#7e7eb1;}
+		.colaborating-advantages-title{font-size: 16px;font-weight: 500;font-family: "Roboto", sans-serif;margin-bottom: 20px;color:#7e7eb1;
+			p{margin: 0;}
+		}
 		.colaborating-advantages-text{font-family: "Futura PT", sans-serif;font-weight: 300;font-size: 14px;color:#6e6e6e;
-			p{
+			p{margin: 0;
 				a{color:#ca8b47;text-decoration: underline;
 					&:hover{text-decoration: none;}
 				}
