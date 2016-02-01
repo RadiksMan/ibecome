@@ -17,7 +17,7 @@
                             &:after{content: ''; display: block; position: absolute; width:50px; height:5px; background-color: #fff; bottom: 0;}
                             p{font:500 26px/31px 'Futura PT'; text-transform: uppercase; position: absolute; bottom: 24px;}
                         }
-                        p{font:500 16px/19px 'Futura PT';}
+                        p{font:500 16px/19px 'Futura PT';margin:0px;}
                     }
                 }
 
@@ -40,15 +40,15 @@
 /*END slider*/
 /*how-it-works*/
     .how-it-works{
-        .how-it-wrap{ max-width: 960px; width: 100%; margin: 0 auto;
-            .title{     padding-bottom: 72px;
+        .how-it-wrap{ max-width: 960px; width: 100%; margin: 0 auto;padding-top: 31px;
+            .title{padding-bottom: 72px;
                 .title-wrap{
                     .title-main{color:#000; font-weight: bold;}
                 }
             }
             .img{text-align: center; img{margin-right: 161px;}}
             .content{
-                .left{ border-right: 1px dotted #abadaf; padding-left: 40px; padding-right: 20px;     padding-bottom: 136px;
+                .left{ border-right: 1px dotted #abadaf; padding-left: 40px; padding-right: 20px;padding-bottom: 136px;
                     .item{text-align: right;
                         &:nth-child(1){    padding-top: 39px;    }
                         &:nth-child(2){    padding-top: 95px;    }
@@ -72,7 +72,7 @@
                 }
                 .column{float:left;
                     .item{ width:420px; position: relative;
-                        p{font: 200 14px/17px 'Futura PT'; color:#1d1d1d;
+                        p{font: 200 14px/17px 'Futura PT'; color:#1d1d1d;margin:0px;
                             &:nth-child(1){font: 900 16px/16px 'Roboto'; color:#7a96a7; width:100%; border-bottom: 1px dotted #abadaf; position: relative;     padding-bottom: 7px;     margin-bottom: 13px;
                                 &:before{content: ''; display: block;position: absolute; width:5px; height:5px; background-color: #8c95a2; bottom:-3px; right:-3px; border-radius:50%;}
                             }
