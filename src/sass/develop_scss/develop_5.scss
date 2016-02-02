@@ -13,7 +13,7 @@
                 .imgs{float:left;}
                 .slides{ float:left; padding: 66px 0 0 27px;
                     .slide{ width:600px; margin-bottom: 10px;
-                        .titles{background-color: #3ac0f3; width:100%; height: 30px; position: relative; padding-top: 8px;
+                        .titles{background-color: #3ac0f3; width:100%; height: 30px; position: relative; padding-top: 8px; cursor: pointer;
                             &:before{content: ''; display: block; position: absolute; width:20px; height: 4px; background-color: #fff; top:11px; left:9px;transform:rotate(180deg); transition: transform 500ms;
                             }
                             &:after{content: ''; display: block; position: absolute; width:20px; height: 4px; background-color: #fff; top:11px; left:9px;transform:rotate(270deg); transition: transform 500ms;}
