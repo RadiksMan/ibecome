@@ -1,7 +1,7 @@
 /*slider*/
     .slider-wrapp{ width:100%; background-image: url('../images/slider-bg.jpg');  background-repeat: repeat; padding-top: 46px;
-        .slider-align{ max-width: 960px; width:100%; margin:0 auto;
-            .title{     padding-bottom: 89px;
+        .slider-align{ max-width: 960px; width:100%; margin:0 auto;     padding-bottom: 74px;
+            .title{     padding-bottom: 33px;
                 .title-wrap{
                     .title-main:after,
                     .title-main:before{background-color: #efbf2c;}
@@ -9,7 +9,31 @@
                     &.white:before{background-color: #fff;}
                 }
             }
-            .slider{
+            .wrappGTX{
+                .imgs{float:left;}
+                .slides{ float:left; padding: 66px 0 0 27px;
+                    .slide{ width:600px; margin-bottom: 10px;
+                        .titles{background-color: #3ac0f3; width:100%; height: 30px; position: relative; padding-top: 8px;
+                            &:before{content: ''; display: block; position: absolute; width:20px; height: 4px; background-color: #fff; top:11px; left:9px;transform:rotate(180deg); transition: transform 500ms;
+                            }
+                            &:after{content: ''; display: block; position: absolute; width:20px; height: 4px; background-color: #fff; top:11px; left:9px;transform:rotate(270deg); transition: transform 500ms;}
+
+                            p{padding-left: 61px;color:#fff; font:500 14px/14px 'Futura PT'; text-transform: uppercase;}
+                            &.activator{
+                                &:after{transform:rotate(0);}
+                                &:before {transform:rotate(0);}
+                            }
+                        }
+                        .txt{width:100%; border: 1px solid #3ac0f3; background-color: #fff; transform-orgin: 50% 0%;  height: 202px;  display: none; padding-top: 22px;
+                            p{padding-left: 61px; font:500 16px/19px 'Futura PT';}
+                        }
+                    }
+                }
+                div{box-sizing: border-box; margin:0; padding: 0;}
+                p{margin:0; padding:0;}
+
+            }
+            /* .slider{
                 .item{
                     .img{float:left; width:48.2%; padding-left: 135px;    box-sizing: border-box;}
                     .txt{ color:#fff; float:left; width:41%;
@@ -34,7 +58,7 @@
                     }
                  }
             }
-            .slick-dots .slick-active button{background-color: #000;}
+            .slick-dots .slick-active button{background-color: #000;} */
         }
     }
 /*END slider*/
